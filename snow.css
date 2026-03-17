@@ -1,0 +1,65 @@
+/* CSS OWNED BY INDEX.java aka kera!! */
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+#snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(0,0,0,0.6);
+    padding: 50px 70px;
+    border-radius: 15px;
+    text-align: center;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255,255,255,0);
+}
+
+h1 {
+    font-size: 50px;
+    margin: 0;
+    text-shadow: 0 0 15px rgba(255,255,255,0);
+}
+
+.subtitle {
+    color: #aaaa;
+    margin-bottom:20px;
+}
+
+.buttons button {
+    margin: 5px; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #ffffff10;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button.hover {
+    background: #ffffff30;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
